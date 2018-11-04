@@ -10,8 +10,8 @@
 4.	Launch an Elevated (run as Admin) **PowerShell ISE** (don't just PowerShell) and run
 ```powershell
 # Configure Git
-git config --global user.name 'your name'
-git config --global user.email 'your email address'
+git config --global user.name 'Shawn Williams'
+git config --global user.email 'scwill18@asu.edu'
 git config --global push.default simple
 
 # Install Gosh-Git
@@ -31,7 +31,7 @@ git clone https://github.com/your_account/IFT220_Lab2.git
 ```
 5.	Change one or more of the files somehow and save the change(s)
     1.	Use psedit <file name> to edit in **PowerShell ISE**, or use your text editor
-    2.  What shoud you change?  See the files for instructions.
+    2.  What shoud you change? Change "DC=ad,DC=sparky-tech,DC=com" to match your domain
 6.	Add the changed file(s) to the commit (`git add <filename>` or `git add -A`)
 7.	Commit (`git commit -m "a note about what you did"`)
 8.	Push (`git push --porcelain`)
